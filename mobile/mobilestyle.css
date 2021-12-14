@@ -4,17 +4,17 @@
 }
 body {
     /* Login */
-    --core-login-text-color: #172975;
+    --core-login-text-color: var(--brand-color);
     --core-login-input-background: #EBEBEB;    
 
     /* primary colors */
-    --ion-color-primary: #006600;    /* Black or white, depending on which color gives more contrast */
+    --ion-color-primary: var(--brand-color);    /* Black or white, depending on which color gives more contrast */
     --ion-color-primary-contrast: #ffffff;
 	
 	--core-link-color: #809704;
 	
 	/* login */
-    --core-login-text-color: #172975;
+    --core-login-text-color: var(--brand-color);
     --core-login-input-background: #EBEBEB;
     --core-login-input-color: #444;
 	
@@ -26,7 +26,7 @@ body {
 /* bottom toolbar*/
 ion-tab-bar.mainmenu-tabs {
     /* Background */
-    --core-bottom-tabs-background: #172975;
+    --core-bottom-tabs-background: var(--brand-color);
     --core-bottom-tabs-background-selected: transparent;
 
     /* Tab icons */
@@ -43,14 +43,14 @@ ion-tab-bar.mainmenu-tabs {
 /* toolbar */
 ion-header ion-toolbar {
     --core-header-toolbar-border-width: 2px; /* Use 0 to disable it */
-    --core-header-toolbar-border-color: #172975;
+    --core-header-toolbar-border-color: var(--brand-color);
 	--core-header-toolbar-background: #F5F5F5;
 }
 
 core-tabs, core-tabs-outlet {
     /* Selected tab */
-    --core-tab-color-active: #172975;
-    --core-tab-border-color-active: #172975;
+    --core-tab-color-active: var(--brand-color);
+    --core-tab-border-color-active: var(--brand-color);
     --core-tab-font-weight-active: bold;
 }
 

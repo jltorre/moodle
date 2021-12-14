@@ -5,8 +5,14 @@ body {
     --core-login-input-background: #EBEBEB;    
 
     /* primary colors */
-    --ion-color-primary: #006600;    /* Black or white, depending on which color gives more contrast */
+    --ion-color-primary: #172975;    /* Black or white, depending on which color gives more contrast */
     --ion-color-primary-contrast: #ffffff;
+
+    /* login */
+    --core-login-background: red;
+    --core-login-text-color: blue;
+    --core-login-input-background: #EBEBEB;
+    --core-login-input-color: #2b2b2b;
 }
 
 /* bottom toolbar*/

@@ -5,16 +5,21 @@ body {
     --core-login-input-background: #EBEBEB;    
 
     /* primary colors */
-    --ion-color-primary: #172975;    /* Black or white, depending on which color gives more contrast */
+    --ion-color-primary: #006600;    /* Black or white, depending on which color gives more contrast */
     --ion-color-primary-contrast: #ffffff;
-
-    /* login */
-    --core-login-background: red;
-    --core-login-text-color: blue;
+	
+	--core-link-color: #809704;
+	
+	/* login */
+    --core-login-text-color: #172975;
     --core-login-input-background: #EBEBEB;
-    --core-login-input-color: #2b2b2b;
+    --core-login-input-color: #444;
+	
+	--core-course-section-button-background: red;
 }
-
+.button-native {
+	border-bottom: 1px solid red !important;
+}
 /* bottom toolbar*/
 ion-tab-bar.mainmenu-tabs {
     /* Background */
@@ -36,4 +41,13 @@ ion-tab-bar.mainmenu-tabs {
 ion-header ion-toolbar {
     --core-header-toolbar-border-width: 2px; /* Use 0 to disable it */
     --core-header-toolbar-border-color: #172975;
+	--core-header-toolbar-background: #F5F5F5;
 }
+
+core-tabs, core-tabs-outlet {
+    /* Selected tab */
+    --core-tab-color-active: #172975;
+    --core-tab-border-color-active: #172975;
+    --core-tab-font-weight-active: bold;
+}
+

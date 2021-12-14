@@ -25,3 +25,9 @@ ion-tab-bar.mainmenu-tabs {
     --core-bottom-tabs-badge-text-color: #fff;
     --core-bottom-tabs-badge-color: white;
 }
+
+/* toolbar */
+ion-header ion-toolbar {
+    --core-header-toolbar-border-width: 2px; /* Use 0 to disable it */
+    --core-header-toolbar-border-color: green;
+}

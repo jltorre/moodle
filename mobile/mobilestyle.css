@@ -1,0 +1,27 @@
+
+body {
+    /* Login */
+    --core-login-text-color: blue;
+    --core-login-input-background: #EBEBEB;    
+
+    /* primary colors */
+    --ion-color-primary: #006600;    /* Black or white, depending on which color gives more contrast */
+    --ion-color-primary-contrast: #ffffff;
+}
+
+/* bottom toolbar*/
+ion-tab-bar.mainmenu-tabs {
+    /* Background */
+    --core-bottom-tabs-background: #172975;
+    --core-bottom-tabs-background-selected: transparent;
+
+    /* Tab icons */
+    --core-bottom-tabs-color: rgba(255, 255, 255, .5);
+
+    /* Selected tab icon */
+    --core-bottom-tabs-color-selected: #fff;
+
+    /* Badges */
+    --core-bottom-tabs-badge-text-color: #fff;
+    --core-bottom-tabs-badge-color: white;
+}

@@ -1,27 +1,19 @@
 :root {
     --core-combobox-border-color: #172975;
     --brand-color: #172975;
+    --green-color: #809704;
 }
 body {
-    /* Login */
-    --core-login-text-color: var(--brand-color);
-    --core-login-input-background: #EBEBEB;    
-
     /* primary colors */
-    --ion-color-primary: var(--brand-color);    /* Black or white, depending on which color gives more contrast */
-    --ion-color-primary-contrast: #ffffff;
+    --ion-color-primary: var(--brand-color);
+    --ion-color-primary-contrast: white;
 	
-	--core-link-color: #809704;
+	--core-link-color: var(--green-color);
 	
 	/* login */
     --core-login-text-color: var(--brand-color);
     --core-login-input-background: #EBEBEB;
     --core-login-input-color: #444;
-	
-	--core-course-section-button-background: red;
-}
-.button-native {
-	border-bottom: 1px solid red !important;
 }
 /* bottom toolbar*/
 ion-tab-bar.mainmenu-tabs {
@@ -31,13 +23,12 @@ ion-tab-bar.mainmenu-tabs {
 
     /* Tab icons */
     --core-bottom-tabs-color: rgba(255, 255, 255, .5);
-
     /* Selected tab icon */
-    --core-bottom-tabs-color-selected: #fff;
+    --core-bottom-tabs-color-selected: white;
 
     /* Badges */
-    --core-bottom-tabs-badge-text-color: #fff;
-    --core-bottom-tabs-badge-color: white;
+    --core-bottom-tabs-badge-text-color: white;
+    --core-bottom-tabs-badge-color: rgb(211, 200, 200);
 }
 
 /* toolbar */
@@ -46,12 +37,10 @@ ion-header ion-toolbar {
     --core-header-toolbar-border-color: var(--brand-color);
 	--core-header-toolbar-background: #F5F5F5;
 }
-
+/* subtoolbar */
 core-tabs, core-tabs-outlet {
     /* Selected tab */
     --core-tab-color-active: var(--brand-color);
     --core-tab-border-color-active: var(--brand-color);
     --core-tab-font-weight-active: bold;
 }
-
-color variables

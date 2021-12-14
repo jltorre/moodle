@@ -1,4 +1,7 @@
-
+:root {
+    --core-combobox-border-color: #172975;
+    --brand-color: #172975;
+}
 body {
     /* Login */
     --core-login-text-color: #172975;
@@ -51,3 +54,4 @@ core-tabs, core-tabs-outlet {
     --core-tab-font-weight-active: bold;
 }
 
+color variables

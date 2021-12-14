@@ -1,7 +1,7 @@
 
 body {
     /* Login */
-    --core-login-text-color: blue;
+    --core-login-text-color: #172975;
     --core-login-input-background: #EBEBEB;    
 
     /* primary colors */
@@ -29,5 +29,5 @@ ion-tab-bar.mainmenu-tabs {
 /* toolbar */
 ion-header ion-toolbar {
     --core-header-toolbar-border-width: 2px; /* Use 0 to disable it */
-    --core-header-toolbar-border-color: green;
+    --core-header-toolbar-border-color: #172975;
 }
